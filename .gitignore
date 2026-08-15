@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+backend/logs/
+
+# Test files
+test_*.py
+*_test.py
+
+# Data files (auto-generated at runtime)
+backend/data/
+
+# Vite cache
+frontend/vite.config.js.timestamp-*
+
+# Python virtual environments (both names used in project)
+backend/env/
+backend/.venv/
